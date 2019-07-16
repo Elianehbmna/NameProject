@@ -29,6 +29,15 @@
         text-align: center;
         font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
       }
+      .card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+        margin-top:70px; 
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+         
+}
       
       
   
