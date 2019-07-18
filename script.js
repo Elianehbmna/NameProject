@@ -9,13 +9,6 @@ var input = document.getElementById("Birthdate").value;
  month = month+1;
  
  dayi = d.getDate();
-//    if(document.getElementbyId("gender").checked)
-// {
-//   var gender = document.getElementById("gender").checked;
-// }    else{
-//     var gender = document.getElementById("genderi").checked;
-// }
- 
 var gender=document.querySelector('input[name="gender"]:checked').value;
 console.log(gender);
  var a = (year-1)/100+1 ;
