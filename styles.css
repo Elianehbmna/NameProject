@@ -25,7 +25,6 @@
         border-radius: 5px;
         background-color: #fff;
         padding: 3px 5px;
-        /*box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);*/
         width: 190px;
       }
       h3{
@@ -45,7 +44,9 @@
           color: grey;
           margin-top: 15px;
         }
-        #
+        #AkhanName{
+          background-color:#ebefd0;
+        }
         
       
       
