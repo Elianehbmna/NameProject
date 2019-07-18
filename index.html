@@ -46,10 +46,55 @@
      year = d.getFullYear();
     month = d.getMonth();
     month =month + 1;
-    day = d.getDate();
-    console.log(month);
-   //document.getElementById("AkhanName").innerHTML = input;}
+    dayi = d.getDate();
+    var type = document.getElementByName("gender").value;
+var a = (year-1)/100+1 ;
+var cc = parseFloat(a);
+var day =   parseFloat(( ( (cc/4) -2*cc-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayi )) % 7;
+var day =(day.toFixed(0));
+if(day == 0 && gender == 'male'){
+  document.getElementById("AkhanName").value ="kwasi";
+} else if(day == 1 && gender == 'male') {
+  document.getElementById("AkhanName").value ="kwadwo";
 }
+else if(day == 2 && gender == 'male') {
+  document.getElementById("AkhanName").value ="kwabena";
+}
+else if(day == 3 && gender == 'male') {
+  document.getElementById("AkhanName").value ="kwaku";
+}
+else if(day == 4 && gender == 'male') {
+  document.getElementById("AkhanName").value ="yao";
+}
+else if(day == 5 && gender == 'male') {
+  document.getElementById("AkhanName").value ="kofi";
+}
+else if(day == 6 && gender == 'male') {
+  document.getElementById("AkhanName").value ="kwame";
+}
+else if(day == 0 && gender == 'female') {
+  document.getElementById("AkhanName").value ="Akosua";
+}
+else if(day == 1 && gender == 'female') {
+  document.getElementById("AkhanName").value ="Adwoa";
+}
+else if(day == 2 && gender == 'female') {
+  document.getElementById("AkhanName").value ="Abeena";
+}
+else if(day == 3 && gender == 'female') {
+  document.getElementById("AkhanName").value ="Akua";
+}
+else if(day == 4 && gender == 'female') {
+  document.getElementById("AkhanName").value ="yaa";
+}
+else if(day == 5 && gender == 'female') {
+ document.getElementById("AkhanName").value ="Afua";
+}
+else if(day == 6 && gender == 'female') {
+  document.getElementById("AkhanName").value ="Ama";
+} 
+   }
+
   </script> 
   
  
