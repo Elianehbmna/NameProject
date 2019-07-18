@@ -7,7 +7,7 @@ var input = document.getElementById("Birthdate").value;
   year = d.getFullYear();
  month = d.getMonth();
  month = month+1;
- //dayi = ("0" + d.getDate()).slice(-2);
+ 
  dayi = d.getDate();
 //    if(document.getElementbyId("gender").checked)
 // {
