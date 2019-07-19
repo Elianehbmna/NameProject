@@ -25,7 +25,7 @@ my projects takes the user birthday date and gender and it returns the correspon
 
 ## The link to live site on GitHub pages:
 
-
+https://elianehbmna.github.io/NameProject/
 
 ## Copyright and license information:
 
