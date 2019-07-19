@@ -12,11 +12,11 @@ Habimana Eliane
 
 ## Technology Used:
 
-1 .Index.html
+1. Index.html
 2. Info.html
-3.script.js
-4.boostrap.min.css
-5.styles.css
+3. script.js
+4. boostrap.min.css
+5. styles.css
 
 
 ## Project Description:
