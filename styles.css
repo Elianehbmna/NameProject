@@ -13,6 +13,8 @@
         
         background: #e5e5e5;
           background-image: url("image/timber.jpg");
+        
+      
           background-color: #cccccc;
         
       
@@ -37,7 +39,7 @@
         margin-bottom: 10px; 
         margin-top:180px; 
           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-          background-color: #ebefd0;
+          background-color: #f6edcf;
         }
         p{
           text-align: left;
